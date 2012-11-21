@@ -1,5 +1,5 @@
-CFLAGS := -Wall -g -O2 -DNDEBUG=1  -DSG=1
-# Remove -DSG=1 if you don't need scather-gather support
+CFLAGS := -Wall -g -O2 -fPIC -DNDEBUG=1
+# Add -DSG=1 if you need scather-gather support
 # NDEBUG=1 is recommended for production
 
 #CFLAGS += -m32
